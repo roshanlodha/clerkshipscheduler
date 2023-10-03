@@ -1,6 +1,6 @@
-﻿name,flex_time
-Roshan,thuPM
-Tori,thuPM
-Nitesh,thuAM
-Nikhil,tueAM
-Alan,tuePM
+﻿name,flex_time,location
+Roshan,thuPM,Main
+Tori,thuPM,Lakewood
+Nitesh,thuAM,Main
+Nikhil,tueAM,Main
+Alan,tuePM,Main
