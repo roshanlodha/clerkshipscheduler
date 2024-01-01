@@ -177,4 +177,5 @@ for student in students:
 
 schedule_df = generate_student_schedule(students)
 schedule_df.to_csv("assignment.csv")
+print(schedule_df)
 
