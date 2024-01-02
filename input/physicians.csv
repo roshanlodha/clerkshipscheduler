@@ -35,11 +35,11 @@
 "Lim, Tracy",Peds,Westlake,,,TRUE,,,,,
 "Field, Christine",Peds,Willoughby Hills ,,,TRUE,,TRUE,,TRUE,
 "Mandelik, James",Peds,Willoughby Hills ,,,,,,TRUE,,
+Various,Geriatrics,Main Campus/X10,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+MC Geri Overflow,Geriatrics,Main Campus/X10,,TRUE,,TRUE,,TRUE,,TRUE
 "Tousi, Babak",Geriatrics,Lakewood Medical Building,,,TRUE,,TRUE,,,
 "Hashmi, Ardeshir",Geriatrics,Lakewood FHC,,,TRUE,,,,,
 "Reddy, Sathya",Geriatrics,Lorain FHC,,,,,,TRUE,,
-Various,Geriatrics,Main Campus/X10,TRUE,,TRUE,,TRUE,,TRUE,
-Various,Geriatrics,Main Campus/X10,,TRUE,,TRUE,,TRUE,,TRUE
 "Factora, Ronan",Geriatrics,North Olmsted,,,TRUE,,,,,
 "Dobler, Kim/Marsh, Lisa/Goettemoeller, Michelle",FM,Avon REJ Health Center                                                      ,,,TRUE,TRUE,,,,
 "Alfes, John/Komitau, Jason/Hollingsworth, Amber",FM,Avon REJ Health Center                                                      ,,,,,,,TRUE,TRUE
@@ -53,7 +53,7 @@ Various,Geriatrics,Main Campus/X10,,TRUE,,TRUE,,TRUE,,TRUE
 Lakewood FHC,FM,Lakewood FHC                                                           ,,,TRUE,TRUE,,,TRUE,TRUE
 Lakewood Family Medicine-Rockport,FM,Lakewood Family Medicine-Rockport               ,,,,,,,TRUE,TRUE
 "Cioffi, Cara",FM,Lorain FHC,,,,,,,TRUE,TRUE
-"Malec, Melanie",FM,Macedonia Express Care,TRUE,,,,,,,
+"Malec, Melanie",FM,Macedonia Express Care,TRUE,TRUE,,,,,,
 "Mekhail, Mark",FM,Solon FHC,,,TRUE,TRUE,,,,
 "Rood, Mark",FM,South Russell Family Practice,,,TRUE,TRUE,,,,
-Twinsburg FHC,FM,Twinsburg FHC                                                                 ,TRUE,,,,,,,
+Twinsburg FHC,FM,Twinsburg FHC                                                                 ,TRUE,TRUE,,,,,,
