@@ -12,7 +12,7 @@ In order to use this algorithm, you will need to have the following packages ins
 
 You can install these packages by running the following command in the downloaded path:
 ```
-pip install pandas fuzzywuzzy
+pip install pandas fuzzywuzzy pyxl
 ```
 
 ## Usage

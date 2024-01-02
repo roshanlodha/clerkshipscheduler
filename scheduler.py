@@ -44,9 +44,9 @@ class Student:
         }
         self.assignment[flex_time] = "FLEX"
         self.specialities_assigned = {
+            "Geriatrics": 1,
             "FM": 2,
             "IM": 1,
-            "Geriatrics": 1,
             "Peds": 1
             #"PalMed": 1,
         }
@@ -56,7 +56,7 @@ class Student:
         self.assignment[time_slot] = physician
 
     def __str__(self):
-        return f"Name: {self.name}\nAssignment: {self.assignment}\nSpecialities Assigned: {self.specialities_assigned}"
+        return f"Name: {self.name}\nAssignment: {self.assignment}\nSpecialities Unassigned: {self.specialities_assigned}"
 
 def create_students(students_df):
     """
@@ -167,7 +167,6 @@ physicians_list = physicians_df['name']
 
 
 for student in students:
-    print(student)
     for specialty in student.specialities_assigned:
         while student.specialities_assigned[specialty] > 0:
             try:
@@ -210,6 +209,7 @@ for student in students:
                                 student.specialities_assigned[specialty] -= 1
                             break
         print(specialty + " assigned")
+    print(student)
 schedule_df = generate_student_schedule(students)
 schedule_df.to_csv("assignment.csv")
 schedule_df
