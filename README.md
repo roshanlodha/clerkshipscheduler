@@ -22,7 +22,7 @@ To use the algorithm, a `students.csv` and `preceptors.csv` file must be provide
 Running the following command will save the optimal assignment of students to `assignment.csv`.
 
 ```
-python3 LABscheduler.py
+python3 scheduler.py
 ```
 
 ## Example
