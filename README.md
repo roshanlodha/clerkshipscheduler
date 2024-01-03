@@ -9,6 +9,7 @@ In order to use this algorithm, you will need to have the following packages ins
 * Python3 
 * Pandas (for data manipulation and analysis)
 * fuzzywuzzy (for fuzzy matching of entered preceptor preferences)
+* time (for while loop handling)
 
 You can install these packages by running the following command in the downloaded path:
 ```
@@ -19,7 +20,7 @@ pip install pandas fuzzywuzzy pyxl
 
 To use the algorithm, a `students.csv` and `preceptors.csv` file must be provided, which represent the students' preferences and the preceptors' availability, respectively. 
 
-Running the following command will save the optimal assignment of students to `assignment.csv`.
+Running the following command will save the optimal assignment of students to `assignment.csv`. A report of assignments will be printed to the terminal.
 
 ```
 python3 scheduler.py
@@ -50,4 +51,4 @@ The output of running the provided sample preferences and preceptors should be:
 
 [17 rows x 9 columns]
 ```
-Note that the order of students is stochastic. 
+Note that the order of students is **deterministic**. 
