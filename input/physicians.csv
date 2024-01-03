@@ -1,59 +1,59 @@
-﻿name,speciality,location,monAM,monPM,tueAM,tuePM,wedAM,wedPM,thuAM,thuPM
-"Tchelidze, Tea",IM,Beachwood FHC,,,TRUE,,,,,
-"Yepes-Rios, Monica",IM,Lutheran Hospital Medical Building,TRUE,,,,,,,
-"Ayala, Sudha",IM,Main Campus/G10,,,TRUE,,,,,
-"Dao, Thao-Vi",IM,Main Campus/G10,TRUE,,,,,,,
-"Fowler, Adele",IM,Main Campus/G10,,,,TRUE,,,,
-"Fleisher, Catherine",IM,Main Campus/G10,,,TRUE,,,,,
-"Frerichs, Nicole",IM,Main Campus/G10,TRUE,,,,,,,
-"Iheme, Gordon",IM,Main Campus/G10,,,,TRUE,,,,
-"Jin, Xian Wen",IM,Main Campus/G10,TRUE,,,,,,,
-"Killeen, Thomas (Collin)",IM,Main Campus/G10,,,,,,TRUE,,
-"Kothari, Shakuntala",IM,Main Campus/G10,,,TRUE,,,,,
-"Linganna, Sanjay",IM,Main Campus/G10,,,,,,TRUE,,
-"Mehta, Neil",IM,Main Campus/G10,,,,,TRUE,,,
-"Nielsen, Craig",IM,Main Campus/G10,,,,,TRUE,,,
-"Noticewala, Penali",IM,Main Campus/G10,,,TRUE,,,,,
-"Jewell, John",IM,Middleburg Heights FHC,,,,,,,TRUE,
-"Damm, William",IM,Strongsville FHC,TRUE,TRUE,,,,,,
-"Mossad, Dalia",IM,Willoughby Hills ,,,,,,,TRUE,
-"Preston, Andrea",Peds,Avon Point FHC,,,TRUE,,,,TRUE,TRUE
-"Van Keuls, Nancy",Peds,Avon Point FHC,,,TRUE,,,,,
-"Hazen, Jaclyn",Peds,Beachwood FHC,,,,,,,TRUE,
-"Sniderman, Amy",Peds,Beachwood FHC,,TRUE,,TRUE,,,,
-"Kukay, John",Peds,Elyria FHC,,,TRUE,,TRUE,,TRUE,
-"Mudd, William (Kyle)",Peds,Fairlawn,,,,,TRUE,,,
-"Schuster, Jennifer",Peds,Hillcrest MOB II,,,,,,TRUE,,
-"Gould, Lindsey",Peds,Independence FHC,,TRUE,,,,,,
-"Chaves-Mari, Paula",Peds,Lorain FHC,,,,,TRUE,,,
-"Weaver, Greg",Peds,Main Campus,,,,,TRUE,,,
-"Kebede, Zelalem",Peds,North Olmsted,,,,,,,TRUE,
-"Pomeranets, Svetlana",Peds,Solon FHC,,,TRUE,,TRUE,TRUE,,
-"Schwartz, Noah",Peds,Stephanie Tubbs Jones,TRUE,,,,,,,
-"Singh, Amandeep",Peds,Twinsburg,,,,,,,,TRUE
-"Benik, Timothy",Peds,Westlake,TRUE,,,,,,TRUE,
-"Lim, Tracy",Peds,Westlake,,,TRUE,,,,,
-"Field, Christine",Peds,Willoughby Hills ,,,TRUE,,TRUE,,TRUE,
-"Mandelik, James",Peds,Willoughby Hills ,,,,,,TRUE,,
-Various,Geriatrics,Main Campus/X10,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
-MC Geri Overflow,Geriatrics,Main Campus/X10,,TRUE,,TRUE,,TRUE,,TRUE
-"Tousi, Babak",Geriatrics,Lakewood Medical Building,,,TRUE,,TRUE,,,
-"Hashmi, Ardeshir",Geriatrics,Lakewood FHC,,,TRUE,,,,,
-"Reddy, Sathya",Geriatrics,Lorain FHC,,,,,,TRUE,,
-"Factora, Ronan",Geriatrics,North Olmsted,,,TRUE,,,,,
-"Dobler, Kim/Marsh, Lisa/Goettemoeller, Michelle",FM,Avon REJ Health Center                                                      ,,,TRUE,TRUE,,,,
-"Alfes, John/Komitau, Jason/Hollingsworth, Amber",FM,Avon REJ Health Center                                                      ,,,,,,,TRUE,TRUE
-"Chisholm, Jessica/Cloud, Lisa/Anderson, Elizabeth",FM,Avon Lake FHC AM/Avon REJ Health Center PM,,,,,TRUE,TRUE,,
-"Allan, Daniel/Krajcik, Daniel/Waite, Coulton",FM,Avon Lake FHC AM/Avon REJ Health Center PM,TRUE,TRUE,,,,,,
-"Boose, Eric/Shah, Hardeepak",FM,Brecksville                                                                          ,,,,,,,TRUE,TRUE
-"Amstadt, Randi",FM,Brunswick FHC                                                                   ,,,,,TRUE,TRUE,,
-"Cain, Robert",FM,Brunswick FHC                                                                   ,,,TRUE,TRUE,,,,
-"Mancini, Gabriel",FM,Brunswick FHC                                                                   ,,,,,,,TRUE,TRUE
-"Pickering Beers, Sarah",FM,Downtown Express Care,,,TRUE,TRUE,,,,
-Lakewood FHC,FM,Lakewood FHC                                                           ,,,TRUE,TRUE,,,TRUE,TRUE
-Lakewood Family Medicine-Rockport,FM,Lakewood Family Medicine-Rockport               ,,,,,,,TRUE,TRUE
-"Cioffi, Cara",FM,Lorain FHC,,,,,,,TRUE,TRUE
-"Malec, Melanie",FM,Macedonia Express Care,TRUE,TRUE,,,,,,
-"Mekhail, Mark",FM,Solon FHC,,,TRUE,TRUE,,,,
-"Rood, Mark",FM,South Russell Family Practice,,,TRUE,TRUE,,,,
-Twinsburg FHC,FM,Twinsburg FHC                                                                 ,TRUE,TRUE,,,,,,
+﻿name,speciality,location,travel_miles,monAM,monPM,tueAM,tuePM,wedAM,wedPM,thuAM,thuPM
+"Ayala, Sudha",IM,Main Campus/G10,0,,,TRUE,,,,,
+"Dao, Thao-Vi",IM,Main Campus/G10,0,TRUE,,,,,,,
+"Fowler, Adele",IM,Main Campus/G10,0,,,,TRUE,,,,
+"Fleisher, Catherine",IM,Main Campus/G10,0,,,TRUE,,,,,
+"Frerichs, Nicole",IM,Main Campus/G10,0,TRUE,,,,,,,
+"Iheme, Gordon",IM,Main Campus/G10,0,,,,TRUE,,,,
+"Jin, Xian Wen",IM,Main Campus/G10,0,TRUE,,,,,,,
+"Killeen, Thomas (Collin)",IM,Main Campus/G10,0,,,,,,TRUE,,
+"Kothari, Shakuntala",IM,Main Campus/G10,0,,,TRUE,,,,,
+"Linganna, Sanjay",IM,Main Campus/G10,0,,,,,,TRUE,,
+"Mehta, Neil",IM,Main Campus/G10,0,,,,,TRUE,,,
+"Nielsen, Craig",IM,Main Campus/G10,0,,,,,TRUE,,,
+"Noticewala, Penali",IM,Main Campus/G10,0,,,TRUE,,,,,
+"Weaver, Greg",Peds,Main Campus,0,,,,,TRUE,,,
+Various,Geriatrics,Main Campus/X10,0,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Various (2),Geriatrics,Main Campus/X10,0,,TRUE,,TRUE,,TRUE,,TRUE
+"Dobler, Kim/Marsh, Lisa/Goettemoeller, Michelle",FM,Avon REJ Health Center                                                      ,0,,,TRUE,TRUE,,,,
+"Alfes, John/Komitau, Jason/Hollingsworth, Amber",FM,Avon REJ Health Center                                                      ,0,,,,,,,TRUE,TRUE
+"Chisholm, Jessica/Cloud, Lisa/Anderson, Elizabeth",FM,Avon Lake FHC AM/Avon REJ Health Center PM,0,,,,,TRUE,TRUE,,
+"Allan, Daniel/Krajcik, Daniel/Waite, Coulton",FM,Avon Lake FHC AM/Avon REJ Health Center PM,0,TRUE,TRUE,,,,,,
+"Boose, Eric/Shah, Hardeepak",FM,Brecksville                                                                          ,0,,,,,,,TRUE,TRUE
+"Amstadt, Randi",FM,Brunswick FHC                                                                   ,0,,,,,TRUE,TRUE,,
+"Cain, Robert",FM,Brunswick FHC                                                                   ,0,,,TRUE,TRUE,,,,
+"Mancini, Gabriel",FM,Brunswick FHC                                                                   ,0,,,,,,,TRUE,TRUE
+"Pickering Beers, Sarah",FM,Downtown Express Care,0,,,TRUE,TRUE,,,,
+Lakewood FHC,FM,Lakewood FHC                                                           ,0,,,TRUE,TRUE,,,TRUE,TRUE
+Lakewood Family Medicine-Rockport,FM,Lakewood Family Medicine-Rockport               ,0,,,,,,,TRUE,TRUE
+"Cioffi, Cara",FM,Lorain FHC,0,,,,,,,TRUE,TRUE
+"Malec, Melanie",FM,Macedonia Express Care,0,TRUE,,,,,,,
+"Mekhail, Mark",FM,Solon FHC,0,,,TRUE,TRUE,,,,
+"Rood, Mark",FM,South Russell Family Practice,0,,,TRUE,TRUE,,,,
+Twinsburg FHC,FM,Twinsburg FHC                                                                 ,0,TRUE,,,,,,,
+"Schwartz, Noah",Peds,Stephanie Tubbs Jones,3,TRUE,,,,,,,
+"Tchelidze, Tea",IM,Beachwood FHC,7,,,TRUE,,,,,
+"Yepes-Rios, Monica",IM,Lutheran Hospital Medical Building,7,TRUE,,,,,,,
+"Hazen, Jaclyn",Peds,Beachwood FHC,7,,,,,,,TRUE,
+"Sniderman, Amy",Peds,Beachwood FHC,7,,TRUE,,TRUE,,,,
+"Gould, Lindsey",Peds,Independence FHC,10,,TRUE,,,,,,
+"Schuster, Jennifer",Peds,Hillcrest MOB II,12,,,,,,TRUE,,
+"Tousi, Babak",Geriatrics,Lakewood Medical Building,12,,,TRUE,,TRUE,,,
+"Hashmi, Ardeshir",Geriatrics,Lakewood FHC,12,,,TRUE,,,,,
+"Pomeranets, Svetlana",Peds,Solon FHC,14,,,TRUE,,TRUE,TRUE,,
+"Mossad, Dalia",IM,Willoughby Hills ,16,,,,,,,TRUE,
+"Field, Christine",Peds,Willoughby Hills ,16,,,TRUE,,TRUE,,TRUE,
+"Mandelik, James",Peds,Willoughby Hills ,16,,,,,,TRUE,,
+"Benik, Timothy",Peds,Westlake,17,TRUE,,,,,,TRUE,
+"Lim, Tracy",Peds,Westlake,17,,,TRUE,,,,,
+"Jewell, John",IM,Middleburg Heights FHC,18,,,,,,,TRUE,
+"Kebede, Zelalem",Peds,North Olmsted,18,,,,,,,TRUE,
+"Factora, Ronan",Geriatrics,North Olmsted,18,,,TRUE,,,,,
+"Damm, William",IM,Strongsville FHC,23,TRUE,TRUE,,,,,,
+"Preston, Andrea",Peds,Avon Point FHC,24,,,TRUE,,,,TRUE,TRUE
+"Van Keuls, Nancy",Peds,Avon Point FHC,24,,,TRUE,,,,,
+"Singh, Amandeep",Peds,Twinsburg,26,,,,,,,,TRUE
+"Kukay, John",Peds,Elyria FHC,30,,,TRUE,,TRUE,,TRUE,
+"Mudd, William (Kyle)",Peds,Fairlawn,30,,,,,TRUE,,,
+"Chaves-Mari, Paula",Peds,Lorain FHC,37,,,,,TRUE,,,
+"Reddy, Sathya",Geriatrics,Lorain FHC,37,,,,,,TRUE,,

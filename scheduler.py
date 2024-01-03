@@ -6,6 +6,7 @@
 
 import pandas as pd
 from fuzzywuzzy import fuzz, process
+import time
 
 class Physician:
     def __init__(self, name, speciality, location, monAM, monPM, tueAM, tuePM, wedAM, wedPM, thuAM, thuPM):
@@ -74,6 +75,8 @@ def create_physicians(physicians_df):
     """
     Creates a list of Physician objects from a dataframe of physicians with the associated speciality and their availability.
     """
+    physicians_df['travel_miles'] = physicians_df['travel_miles'].fillna(0)
+    physicians_df = physicians_df.sort_values('travel_miles').drop('travel_miles', axis = 1)
     physicians_df = physicians_df.fillna(False)
     physicians = {}
 
@@ -98,12 +101,12 @@ def create_physicians(physicians_df):
 def find_time(student, physician, isFM):
     for time_slot in student.assignment:
         if (student.assignment[time_slot] == None) and (physician.availability[time_slot] == True):
-            return time_slot
-            #if(isFM):
-                #if(time_slot[3:] == 'AM'):
-            #        return time_slot
-            #else:
-            #    return time_slot
+            #return time_slot
+            if(isFM):
+                if(time_slot[3:] == 'AM'):
+                    return time_slot
+            else:
+                return time_slot
     return None
 
 def generate_student_schedule(students):
@@ -168,7 +171,11 @@ physicians_list = physicians_df['name']
 
 for student in students:
     for specialty in student.specialities_assigned:
+        timeout = time.time() + 5 # give 5 seconds to find the assignment
         while student.specialities_assigned[specialty] > 0:
+            if time.time() > timeout:
+                print(specialty + " unassigned")
+                break
             try:
                 specialty_index = None
                 if(specialty == "FM"):
@@ -183,6 +190,7 @@ for student in students:
                 isFM = (specialty == "FM")
                 time_slot = find_time(student, physician, isFM)
                 if (time_slot != None) and (physician.speciality == specialty):
+                    print(specialty + " assigned")
                     student.update_assignment(time_slot, physician)
                     physician.update_availability(time_slot)
                     student.specialities_assigned[specialty] -= 1
@@ -199,6 +207,7 @@ for student in students:
                     if physician.speciality == specialty:
                         time_slot = find_time(student, physician, isFM)
                         if time_slot != None:
+                            print(specialty + " assigned")
                             student.update_assignment(time_slot, physician)
                             physician.update_availability(time_slot)
                             student.specialities_assigned[specialty] -= 1
@@ -208,8 +217,8 @@ for student in students:
                                 physician.update_availability(next_time_slot)
                                 student.specialities_assigned[specialty] -= 1
                             break
-        print(specialty + " assigned")
     print(student)
+    print("\n")
 schedule_df = generate_student_schedule(students)
 schedule_df.to_csv("assignment.csv")
 schedule_df
