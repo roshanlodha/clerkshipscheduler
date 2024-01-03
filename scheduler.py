@@ -45,8 +45,8 @@ class Student:
         }
         self.assignment[flex_time] = "FLEX"
         self.specialities_assigned = {
-            "Geriatrics": 1,
             "FM": 2,
+            "Geriatrics": 1,
             "IM": 1,
             "Peds": 1
             #"PalMed": 1,
@@ -133,7 +133,8 @@ def generate_student_schedule(students):
         # Iterate through the assignments to fill in the physician names
         for time_slot, physician in student.assignment.items():
             if physician != "FLEX" and physician != None:
-                schedule[time_slot] = physician.name + " (" + physician.speciality + ", " + physician.location + ")"
+                schedule[time_slot] = physician.name + " (" + physician.speciality + ", " + physician.location.strip() + ")"
+                #schedule[time_slot] = physician.name + " (" + physician.speciality + ")"
 
         # Append the schedule for the current student to the DataFrame
         schedule_df.loc[len(schedule_df)] = schedule
