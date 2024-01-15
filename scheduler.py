@@ -159,7 +159,7 @@ def clean_student_df(students_df):
 # In[ ]:
 
 
-students_df = clean_student_df(pd.read_excel("./input/Longitudinal Ambulatory Block Preferences(1-14).xlsx"))
+students_df = clean_student_df(pd.read_excel("./input/Longitudinal Ambulatory Block Preferences(1-18).xlsx"))
 physicians_df = pd.read_csv("./input/physicians.csv")
 
 students = create_students(students_df)

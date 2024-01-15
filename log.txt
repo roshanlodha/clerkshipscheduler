@@ -1,0 +1,162 @@
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: pramodn@ccf.org
+Assignment: {'monAM': 'FLEX', 'monPM': <__main__.Physician object at 0x111d45d30>, 'tueAM': <__main__.Physician object at 0x111d452e0>, 'tuePM': <__main__.Physician object at 0x111d452e0>, 'wedAM': <__main__.Physician object at 0x111703340>, 'wedPM': <__main__.Physician object at 0x111d45880>, 'thuAM': None, 'thuPM': None}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: arakelm@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111d45130>, 'monPM': None, 'tueAM': <__main__.Physician object at 0x111d45ca0>, 'tuePM': <__main__.Physician object at 0x111d455e0>, 'wedAM': 'FLEX', 'wedPM': None, 'thuAM': <__main__.Physician object at 0x111d452e0>, 'thuPM': <__main__.Physician object at 0x111d452e0>}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: sharewb@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111d42f40>, 'monPM': <__main__.Physician object at 0x111d42f40>, 'tueAM': 'FLEX', 'tuePM': <__main__.Physician object at 0x111d45d30>, 'wedAM': None, 'wedPM': <__main__.Physician object at 0x111d45970>, 'thuAM': <__main__.Physician object at 0x111d45af0>, 'thuPM': None}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: deangel2@ccf.org
+Assignment: {'monAM': 'FLEX', 'monPM': <__main__.Physician object at 0x111d45c70>, 'tueAM': <__main__.Physician object at 0x111d45d30>, 'tuePM': <__main__.Physician object at 0x111d45640>, 'wedAM': <__main__.Physician object at 0x111c75fd0>, 'wedPM': <__main__.Physician object at 0x111c75fd0>, 'thuAM': None, 'thuPM': None}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: FARESS2@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111d45d30>, 'monPM': None, 'tueAM': <__main__.Physician object at 0x111d42970>, 'tuePM': <__main__.Physician object at 0x111d42970>, 'wedAM': <__main__.Physician object at 0x111d45850>, 'wedPM': <__main__.Physician object at 0x111d45c10>, 'thuAM': None, 'thuPM': 'FLEX'}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: MURALIA2@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111d45cd0>, 'monPM': None, 'tueAM': <__main__.Physician object at 0x111d454c0>, 'tuePM': None, 'wedAM': <__main__.Physician object at 0x111d45d30>, 'wedPM': None, 'thuAM': <__main__.Physician object at 0x111d45340>, 'thuPM': <__main__.Physician object at 0x111d45340>}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: SANTANG3@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111d45a30>, 'monPM': None, 'tueAM': <__main__.Physician object at 0x111d45700>, 'tuePM': <__main__.Physician object at 0x111d45700>, 'wedAM': <__main__.Physician object at 0x111d457c0>, 'wedPM': <__main__.Physician object at 0x111d45d30>, 'thuAM': None, 'thuPM': 'FLEX'}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: lewisk2@ccf.org
+Assignment: {'monAM': 'FLEX', 'monPM': None, 'tueAM': <__main__.Physician object at 0x111d45400>, 'tuePM': <__main__.Physician object at 0x111d45dc0>, 'wedAM': <__main__.Physician object at 0x111d45910>, 'wedPM': None, 'thuAM': <__main__.Physician object at 0x111703130>, 'thuPM': <__main__.Physician object at 0x111703130>}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: JOD2@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111703640>, 'monPM': <__main__.Physician object at 0x111703640>, 'tueAM': <__main__.Physician object at 0x111d45580>, 'tuePM': <__main__.Physician object at 0x111d45400>, 'wedAM': None, 'wedPM': <__main__.Physician object at 0x111d457c0>, 'thuAM': None, 'thuPM': 'FLEX'}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: SARNAIK@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111d426a0>, 'monPM': <__main__.Physician object at 0x111d426a0>, 'tueAM': <__main__.Physician object at 0x111d456a0>, 'tuePM': None, 'wedAM': <__main__.Physician object at 0x111d45820>, 'wedPM': None, 'thuAM': <__main__.Physician object at 0x111d45d30>, 'thuPM': 'FLEX'}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: KUMARY2@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111d45b50>, 'monPM': None, 'tueAM': <__main__.Physician object at 0x111d451c0>, 'tuePM': <__main__.Physician object at 0x111d451c0>, 'wedAM': <__main__.Physician object at 0x111d45ca0>, 'wedPM': None, 'thuAM': <__main__.Physician object at 0x111d45820>, 'thuPM': 'FLEX'}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: oladejt@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111d45a90>, 'monPM': None, 'tueAM': <__main__.Physician object at 0x111d45280>, 'tuePM': <__main__.Physician object at 0x111d45280>, 'wedAM': None, 'wedPM': <__main__.Physician object at 0x111d5a4f0>, 'thuAM': <__main__.Physician object at 0x111d45130>, 'thuPM': 'FLEX'}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: GHOSHD2@ccf.org
+Assignment: {'monAM': None, 'monPM': None, 'tueAM': <__main__.Physician object at 0x111d45a60>, 'tuePM': <__main__.Physician object at 0x111d45d90>, 'wedAM': None, 'wedPM': <__main__.Physician object at 0x111d45fd0>, 'thuAM': <__main__.Physician object at 0x111d42730>, 'thuPM': <__main__.Physician object at 0x111d42730>, None: 'FLEX'}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: DONTHIS@ccf.org
+Assignment: {'monAM': None, 'monPM': None, 'tueAM': <__main__.Physician object at 0x111d45940>, 'tuePM': None, 'wedAM': <__main__.Physician object at 0x111d42b20>, 'wedPM': <__main__.Physician object at 0x111d42b20>, 'thuAM': <__main__.Physician object at 0x111d450a0>, 'thuPM': <__main__.Physician object at 0x111d45d30>}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics unassigned
+IM assigned
+Peds assigned
+Name: BAILLAS@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111d5a250>, 'monPM': None, 'tueAM': 'FLEX', 'tuePM': None, 'wedAM': <__main__.Physician object at 0x111d5a3d0>, 'wedPM': None, 'thuAM': <__main__.Physician object at 0x111d45220>, 'thuPM': <__main__.Physician object at 0x111d45220>}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 1, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics assigned
+IM assigned
+Peds assigned
+Name: HOSSK@ccf.org
+Assignment: {'monAM': None, 'monPM': <__main__.Physician object at 0x111d5a250>, 'tueAM': <__main__.Physician object at 0x111d5a160>, 'tuePM': None, 'wedAM': <__main__.Physician object at 0x111d5a430>, 'wedPM': None, 'thuAM': <__main__.Physician object at 0x111d453a0>, 'thuPM': <__main__.Physician object at 0x111d453a0>}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 0, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics unassigned
+IM assigned
+Peds assigned
+Name: GOLDBLC@ccf.org
+Assignment: {'monAM': <__main__.Physician object at 0x111d45460>, 'monPM': <__main__.Physician object at 0x111d45460>, 'tueAM': <__main__.Physician object at 0x111d45be0>, 'tuePM': None, 'wedAM': None, 'wedPM': None, 'thuAM': <__main__.Physician object at 0x111d5a310>, 'thuPM': 'FLEX'}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 1, 'IM': 0, 'Peds': 0}
+
+
+FM assigned
+Geriatrics unassigned
+IM assigned
+Peds assigned
+Name: HAVENSA2@ccf.org
+Assignment: {'monAM': None, 'monPM': None, 'tueAM': <__main__.Physician object at 0x111d45520>, 'tuePM': <__main__.Physician object at 0x111d45520>, 'wedAM': <__main__.Physician object at 0x111d5a490>, 'wedPM': None, 'thuAM': <__main__.Physician object at 0x111d45f70>, 'thuPM': 'FLEX'}
+Specialities Unassigned: {'FM': 0, 'Geriatrics': 1, 'IM': 0, 'Peds': 0}
+
+
