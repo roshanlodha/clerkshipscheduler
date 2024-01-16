@@ -26,7 +26,7 @@
 "Schuster, Jennifer",Peds,Hillcrest MOB II,12,,,,,,TRUE,,
 "Gould, Lindsey",Peds,Independence FHC,10,,TRUE,,,,,,
 "Chaves-Mari, Paula",Peds,Lorain FHC,37,,,,,TRUE,,,
-"Weaver, Greg",Peds,Main Campus,0,,,,,TRUE,,,
+"Weaver, Greg",Peds,Main Campus,0,,,,,,TRUE,,
 "Kebede, Zelalem",Peds,North Olmsted,18,,,,,,,TRUE,
 "Pomeranets, Svetlana",Peds,Solon FHC,14,,,TRUE,,TRUE,TRUE,,
 "Schwartz, Noah",Peds,Stephanie Tubbs Jones,3,TRUE,,,,,,,
@@ -53,8 +53,8 @@ Various (2),Geriatrics,Main Campus/X10,0,,,TRUE,TRUE,,,,
 Lakewood FHC,FM,Lakewood FHC                                                           ,0,,,TRUE,TRUE,,,TRUE,TRUE
 Lakewood Family Medicine-Rockport,FM,Lakewood Family Medicine-Rockport               ,0,,,,,,,TRUE,TRUE
 "Cioffi, Cara",FM,Lorain FHC,0,,,,,,,TRUE,TRUE
-"Malec, Melanie",FM,Macedonia Express Care,0,TRUE,,,,,,,
+"Malec, Melanie",FM,Macedonia Express Care,0,TRUE,TRUE,,,,,,
 "Mekhail, Mark",FM,Solon FHC,0,,,TRUE,TRUE,,,,
 "Rood, Mark",FM,South Russell Family Practice,0,,,TRUE,TRUE,,,,
-Twinsburg FHC,FM,Twinsburg FHC                                                                 ,0,TRUE,,,,,,,
+Twinsburg FHC,FM,Twinsburg FHC                                                                 ,0,TRUE,TRUE,,,,,,
 "Binder, David ",FM,Strongsville FHC,0,TRUE,TRUE,,,,,,

@@ -120,14 +120,14 @@ def generate_student_schedule(students):
     for student in students:
         schedule = {
             "Student": student.name,
-            "monAM": "FLEX" if student.assignment["monAM"] == "FLEX" else "free time",
-            "monPM": "FLEX" if student.assignment["monPM"] == "FLEX" else "free time",
-            "tueAM": "FLEX" if student.assignment["tueAM"] == "FLEX" else "free time",
-            "tuePM": "FLEX" if student.assignment["tuePM"] == "FLEX" else "free time",
-            "wedAM": "FLEX" if student.assignment["wedAM"] == "FLEX" else "free time",
-            "wedPM": "FLEX" if student.assignment["wedPM"] == "FLEX" else "free time",
-            "thuAM": "FLEX" if student.assignment["thuAM"] == "FLEX" else "free time",
-            "thuPM": "FLEX" if student.assignment["thuPM"] == "FLEX" else "free time"
+            "monAM": "FLEX" if student.assignment["monAM"] == "FLEX" else "open",
+            "monPM": "FLEX" if student.assignment["monPM"] == "FLEX" else "open",
+            "tueAM": "FLEX" if student.assignment["tueAM"] == "FLEX" else "open",
+            "tuePM": "FLEX" if student.assignment["tuePM"] == "FLEX" else "open",
+            "wedAM": "FLEX" if student.assignment["wedAM"] == "FLEX" else "open",
+            "wedPM": "FLEX" if student.assignment["wedPM"] == "FLEX" else "open",
+            "thuAM": "FLEX" if student.assignment["thuAM"] == "FLEX" else "open",
+            "thuPM": "FLEX" if student.assignment["thuPM"] == "FLEX" else "open"
         }
 
         # Iterate through the assignments to fill in the physician names
@@ -153,6 +153,7 @@ def clean_student_df(students_df):
                  "Thursday AM": "thuAM", "Thursday PM": "thuPM",
                 "No Preference": None}
     students_df = students_df[['Email', 'Flex Preference', 'preference']].rename(columns={"Email": "name", "Flex Preference": "flex_time"}).replace({"flex_time": flex_dict})
+    students_df = students_df.sample(frac=1).reset_index()
     return students_df
 
 
