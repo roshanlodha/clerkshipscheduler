@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import pandas as pd
 from fuzzywuzzy import fuzz, process
 import time
@@ -221,6 +215,7 @@ for student in students:
                             break
     print(student)
     print("\n")
+
 schedule_df = generate_student_schedule(students)
 schedule_df.to_csv("assignment.csv")
 schedule_df
